@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Testimonio() {
+export function Testimonio() {
     // Un componente funcional de React retorna un elemento JSX
     return (
         <div className='contenedor-testimonio'>
@@ -22,6 +22,7 @@ function Testimonio() {
 /**
  * En React existen 2 tipos de exportación: Nombrada y Por Defecto
  * Por Defecto .- quiere decir q este será el único componente de este archivo
- * Nombrada .- aqui podriamos exportar varios elementos de un mismo archivo y cuando la importemos tendremos q especificar q elementos importar
+ * Nombrada .- aqui podriamos exportar varios elementos de un mismo archivo y cuando la importemos tendremos q especificar q elementos importar.
+ *             Para eso usamos las {} para importar y ahi especificamos cuales queremos importar.
  */
-export default Testimonio;
+// export default Testimonio;
