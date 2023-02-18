@@ -19,3 +19,9 @@ function Testimonio() {
         </div>
     );
 }
+/**
+ * En React existen 2 tipos de exportación: Nombrada y Por Defecto
+ * Por Defecto .- quiere decir q este será el único componente de este archivo
+ * Nombrada .- aqui podriamos exportar varios elementos de un mismo archivo y cuando la importemos tendremos q especificar q elementos importar
+ */
+export default Testimonio;
