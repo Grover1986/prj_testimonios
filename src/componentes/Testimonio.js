@@ -1,6 +1,7 @@
 import React from 'react';
+import '../hojas-de-estilo/Testimonio.css';
 
-export function Testimonio() {
+function Testimonio() {
     // Un componente funcional de React retorna un elemento JSX
     return (
         <div className='contenedor-testimonio'>
@@ -25,4 +26,4 @@ export function Testimonio() {
  * Nombrada .- aqui podriamos exportar varios elementos de un mismo archivo y cuando la importemos tendremos q especificar q elementos importar.
  *             Para eso usamos las {} para importar y ahi especificamos cuales queremos importar.
  */
-// export default Testimonio;
+export default Testimonio;
